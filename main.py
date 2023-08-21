@@ -1,5 +1,4 @@
 import cv2
-
 from ultralytics import YOLO
 import supervision as sv
 import numpy as np
@@ -12,7 +11,7 @@ import webbrowser
 
 def open_html_file():
     
-    html_file_path = './PROJECT SOURCE CODE AND FILES/manager.html'
+    html_file_path = 'D:\PROJECT SOURCE CODE AND FILES\manager.html'
     webbrowser.open(html_file_path)
 
 
@@ -95,7 +94,7 @@ def main():
         if(zone.current_count == 0):
             tim=tim+1
             print(tim)
-            if tim == 5 :
+            if tim == 10 :
                 open_html_file()
                 print("item out of stock")
         else:
