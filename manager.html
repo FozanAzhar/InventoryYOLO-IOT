@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Details</title>
+  <style>
+    /* Reset some default styles */
+    body, h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    /* User details section */
+    .user-details {
+      background-color: #f2f2f2;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .user-photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .user-presence {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-left: 10px;
+    }
+
+    .user-presence-green {
+      background-color: green;
+    }
+
+    .user-presence-red {
+      background-color: red;
+    }
+
+    /* User details form */
+    .user-details-form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    .user-details-form h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .user-details-form input[type="text"],
+    .user-details-form input[type="email"] {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+    }
+
+    .user-details-form button {
+      display: block;
+      width: 100%;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .user-details-form button:hover {
+      background-color: #555;
+    }
+
+    /* User cart and billing section */
+    .cart-section {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+
+    .cart-section h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .cart-item {
+      margin-bottom: 10px;
+    }
+
+    .cart-item span {
+      display: inline-block;
+      width: 120px;
+      font-weight: bold;
+    }
+
+    .billing-info {
+      margin-top: 20px;
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="user-details">
+    <img src="/aiyan.jpeg" alt="User Photo" class="user-photo">
+    <div class="user-presence user-presence-green"></div>
+  </div>
+
+  <div class="user-details-form">
+    <h2>Inventory Notification</h2>
+     
+        </div>
+        <div class="cart-section">
+          <h2>Zone1</h2>
+          
+          <div class="cart-item">
+            <h2>Quantity is zero , Restock items in zone 1</h2>
+          </div>
+        </div>
+        <script src="firebase.js"> </script>
+        <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
+      </body>
+      </html>
