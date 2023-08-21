@@ -10,9 +10,13 @@ The model used here to train the data is YOLOv8. We have used a pretrained model
 ![in main.py ->  Line56 : change .ptfile](image-4.png)
 
 Before running main.py be sure to install all the necessary libraries in your terminal , you can run the following commands in the termnal to install the necessary libraries. 
-pip install numpy  
+
+pip install numpy
+
 pip install supervision
+
 pip install ultralytics
+
 pip install cv 
 
 You also need to change the address to the relevant address for "manager.html"
