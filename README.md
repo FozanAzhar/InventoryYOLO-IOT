@@ -19,6 +19,8 @@ The model used here to train the data is YOLOv8. We have used a pretrained model
 
 Before running main.py be sure to install all the necessary libraries in your terminal , you can run the following commands in the termnal to install the necessary libraries. 
 
+## Setup
+
 pip install numpy
 
 pip install supervision
