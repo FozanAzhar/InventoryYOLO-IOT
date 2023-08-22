@@ -11,6 +11,12 @@ The model used here to train the data is YOLOv8. We have used a pretrained model
 
 ![in main.py ->  Line56 : change .ptfile](image-4.png)
 
+## Flowchart
+
+
+![IMG_1912 (2)](https://github.com/FozanAzhar/InventoryYOLO-IOT/assets/95569589/8779a280-19bb-4c84-a7b6-1b7d886faee4)
+
+
 Before running main.py be sure to install all the necessary libraries in your terminal , you can run the following commands in the termnal to install the necessary libraries. 
 
 pip install numpy
