@@ -1,4 +1,4 @@
-## Reatil Store Object Detection Using Deep Learning Algorithm (YOLO) and IOT
+## Retail Store Object Detection Using Deep Learning Algorithm (YOLO) and IOT
 
 This program allows you to read item count within a specific boundary in real time , if the item count is zero for a set amount of time , a simple notification pops up in the form of a html file.
 
