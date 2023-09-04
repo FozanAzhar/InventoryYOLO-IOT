@@ -21,13 +21,13 @@ Before running main.py be sure to install all the necessary libraries in your te
 
 ## Setup
 
-pip install numpy
+`pip install numpy`
 
-pip install supervision
+`pip install supervision`
 
-pip install ultralytics
+`pip install ultralytics`
 
-pip install cv 
+`pip install cv`
 
 You also need to change the address to the relevant address for "manager.html"
 
